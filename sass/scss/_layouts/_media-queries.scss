@@ -1,0 +1,173 @@
+@import "_modules/_bits";
+
+.roccLogoMenu {
+	@include XL {
+		width: 180px;
+    	height: auto;
+	}
+	@include LG {
+		width: 180px;
+    	height: auto;
+	}
+	@include MD {
+		width: 180px;
+    	height: auto;
+	}
+	@include SM {
+		width: 180px;
+    	height: auto;
+	}
+	@include XS {
+		width: 120px;
+    	height: auto;
+	}
+}
+.navbar-header {
+	@include XL {
+		height: 100px;
+	}
+	@include LG {
+		height: 100px;
+	}
+	@include MD {
+		height: 100px;
+	}
+	@include SM {
+		height: 100px;
+	}
+	@include XS {
+		height: 75px;
+	}
+}
+.ul.menu li a {
+	@include XL {
+		font-size: 18px !important;
+    	padding-right: 20px;
+	}
+	@include LG {
+		font-size: 16px !important;
+    	padding-right: 9px;
+	}
+	@include MD {
+		font-size: 18px !important;
+	}
+	@include SM {
+		font-size: 18px !important;
+	}
+	@include XS {
+		font-size: 16px !important;
+	}
+}
+.menu {
+	@include XL {
+		transform: translateY(10%);
+	}
+	@include LG {
+		transform: translateY(10%);
+	}
+}
+.start {
+	@include XL {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506310256/IMG-20170922-WA0006_ALT_hekqnp.jpg);
+	}
+	@include LG {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506310256/IMG-20170922-WA0006_ALT_hekqnp.jpg);
+	}
+	@include MD {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_768/v1506310256/IMG-20170922-WA0006_ALT_hekqnp.jpg);
+	}
+	@include SM {
+		 background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_768/v1506310256/IMG-20170922-WA0006_ALT_hekqnp.jpg);
+	}
+	@include XS {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_768/v1506310256/IMG-20170922-WA0006_ALT_hekqnp.jpg);
+	}
+}
+footer {
+	@include XL {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto/v1506311028/TOL_qowk3c.jpg);
+	}
+	@include LG {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto/v1506311028/TOL_qowk3c.jpg);
+	}
+	@include MD {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_768/v1506311028/TOL_qowk3c.jpg);
+	}
+	@include SM {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_768/v1506311028/TOL_qowk3c.jpg);
+	}
+	@include XS {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_768/v1506311028/TOL_qowk3c.jpg);
+	}
+}
+body {
+	@include XL {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto/v1506317753/TOLlight_e1vgja.jpg); 
+		background-position: right center;
+		background-repeat: repeat-y;
+	}
+	@include LG {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto/v1506317753/TOLlight_e1vgja.jpg); background-size: stretch;
+		background-position: right center;
+		background-repeat: repeat-y;
+	}
+	@include MD {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_786/v1506317753/TOLlight_e1vgja.jpg); background-size: stretch;
+		background-position: right center;
+		background-repeat: repeat-y;
+	}
+	@include SM {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_786/v1506317753/TOLlight_e1vgja.jpg); background-size: stretch;
+		background-position: right center;
+		background-repeat: repeat-y;
+	}
+	@include XS {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_786/v1506317753/TOLlight_e1vgja.jpg); background-size: stretch;
+		background-position: right center;
+		background-repeat: repeat-y;
+	}
+}
+.clientBG {
+	@include XL {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg);  
+	}
+	@include LG {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg);  
+	}
+	@include MD {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg);  
+	}
+	@include SM {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg);  
+	}
+	@include XS {
+		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg);  
+	}
+}
+.clientTitle {
+	@include XL {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	@include LG {
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+	@include MD {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	@include SM {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+	@include XS {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+}
+.titleTag {
+	@include XS {
+		display: block;
+	}
+}

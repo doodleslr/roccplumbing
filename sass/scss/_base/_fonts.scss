@@ -1,0 +1,188 @@
+@import "_modules/_bits";
+
+.roccTitle {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: justify;
+  	@include XL {
+		width: 50%;
+	}
+	@include LG {
+		width: 60%;
+	}
+	@include MD {
+		width: 70%;
+	}
+	@include SM {
+		width: 80%;
+	}
+	@include XS {
+		width: 90%;
+	}
+}
+.textTitle {
+  color: $grey;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
+}
+.textFlairL {
+  	color: $gold;
+  	font-family: 'Comfortaa', cursive;
+  	font-size: 20px;
+  	text-align: center;
+  	font-weight: 600;
+}
+.textFlairD {
+  	color: $dblu;
+  	font-family: 'Comfortaa', cursive;
+  	font-size: 20px;
+ 	text-align: center;
+ 	font-weight: 600;
+}
+.textMain {
+  color: $dblu;
+  font-family: 'Arista';
+  font-size: 19px;
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.menuText {
+  font-family: 'Comfortaa', cursive;
+  display: inline;
+  color: $gold;
+  	@include XL {
+		font-size: 20px !important;
+	}
+	@include LG {
+		font-size: 18px !important;
+	}
+	@include MD {
+		font-size: 18px !important;
+	}
+	@include SM {
+		font-size: 14px !important;
+	}
+	@include XS {
+		font-size: 14px !important;
+	}
+}
+.stretch_it {
+    white-space: nowrap;
+}
+ul.menu li a{
+  font-family: 'Comfortaa', cursive;
+  color: $gold !important;
+  font-size: 20px;
+  text-decoration: none;
+  transform: translateY(40%);
+  &:hover {
+    transform: translateY(35%);
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 1);
+  }
+}
+.footT1 {
+  font-size: 20px;
+  font-weight: 600;
+  @include XS {
+		font-size: 16px !important;
+	}
+}
+.footT2 {
+  font-size: 16px;
+  font-weight: 300;
+  @include XS {
+		font-size: 14px;
+	}
+}
+.userText {
+  	@include XL {
+		height: 100px !important;
+	}
+	@include LG {
+		height: 100px !important;
+	}
+	@include MD {
+		height: 100px !important;
+	}
+	@include SM {
+		height: 125px !important;
+	}
+	@include XS {
+		height: 125px !important;
+	}
+}
+.one {
+  @include XL {
+		font-size: 34px;
+	}
+	@include LG {
+		font-size: 34px;
+	}
+	@include MD {
+		font-size: 34px;
+	}
+	@include SM {
+		font-size: 32px;
+	}
+	@include XS {
+		font-size: 14px;
+	}
+}
+.two { 
+  font-weight: 500;
+  	@include XL {
+		font-size: 52px;
+	}
+	@include LG {
+		font-size: 52px;
+	}
+	@include MD {
+		font-size: 48px;
+	}
+	@include SM {
+		font-size: 46px;
+	}
+	@include XS {
+		font-size: 30px;
+	}
+}
+.three {
+  color: $neonorange;
+  font-weight: 600;
+  @include XL {
+		font-size: 28px;
+	}
+	@include LG {
+		font-size: 28px;
+	}
+	@include MD {
+		font-size: 26px;
+	}
+	@include SM {
+		font-size: 24px;
+	}
+	@include XS {
+		font-size: 15px;
+	}
+}
+.four {
+  color: $gold;
+  font-weight: 300;
+  @include XL {
+		font-size: 20px;
+	}
+	@include LG {
+		font-size: 20px;
+	}
+	@include MD {
+		font-size: 20px;
+	}
+	@include SM {
+		font-size: 18px;
+	}
+	@include XS {
+		font-size: 18px;
+	}
+}

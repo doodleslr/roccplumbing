@@ -1,0 +1,46 @@
+//text colours
+$dblu: #506095;
+$gold: #e6e1cb;
+$neonblu: #72d6fe;
+$neonorange: #f26522;
+$grey: #68708d;
+
+
+//media queries
+$xtra-large:"screen and (min-width: 992px)";
+$large:"(min-width: 768px) and (max-width: 991px)";
+$medium:"(min-width: 600px) and (max-width: 767px)";
+$small:"(min-width: 480px) and (max-width: 599px)";
+$xtra-small:"only screen and (max-width: 479px)";
+
+@mixin XL {
+  @media #{$xtra-large} {
+    @content;
+  }
+}
+@mixin LG {
+  @media #{$large} {
+    @content;
+  }
+}
+@mixin MD {
+  @media #{$medium} {
+    @content;
+  }
+}
+@mixin SM {
+  @media #{$small} {
+    @content;
+  }
+}
+@mixin XS {
+  @media #{$xtra-small} {
+    @content;
+  }
+}
+
+@font-face {
+	font-family: Arista; 
+	src: url("Arista-Pro-Light-OTF.otf");
+	src: url("Arista-Pro-Light-TTF.ttf");
+}

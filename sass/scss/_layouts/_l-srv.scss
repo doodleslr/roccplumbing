@@ -1,0 +1,107 @@
+@import "_modules/_bits";
+
+.srvList {
+    padding-left: 0px;
+}
+ul.srvList li {
+  color: #506095;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 10px 0px 10px 40px;
+  height: auto;
+  background: url("http://res.cloudinary.com/dglarocca/image/upload/f_auto/v1506340549/tick_pr9vnn.png") no-repeat top left;
+  span {
+
+  }
+}
+.srvImg {
+  	padding: 15px 0;
+  	position: relative;
+  	text-align: center;
+  	@include MD {
+		height: auto;
+	}
+	@include SM {
+		height: auto;
+	}
+	@include XS {
+		height: auto;
+		width: 150px;
+	}
+}
+.anim {
+	height: 100%;
+	width: 100%;
+	&:hover {
+		opacity: 0.8;
+		border-bottom: 1px solid $neonblu;
+	}
+}
+.cloudBig {
+	&:before {
+		width: 70px;
+		height: 30px;
+		bottom: -30px;
+		right: -50px;
+		border-radius: 20px;
+		position: absolute;
+		content: "";
+		background: inherit;
+		z-index: -2;
+		border: inherit;
+	}
+}
+.cloudBig, .cloud {
+	position: absolute;
+	border: 10px solid $neonorange;
+	background: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+	width: 70px;
+	height: 30px;
+	z-index: -1;
+}
+.low {
+	top: 100px;
+	animation: cloudL 20s linear infinite;
+}
+.mid {
+	top: 70px;
+	animation: cloudL 10s linear infinite;
+}
+.high {
+	top: 30px;
+	animation: cloudR 16s linear infinite;
+}
+@keyframes cloudL {
+	0% {
+		opacity: 0;
+		left: -60px;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		left: 200px;
+	}
+}
+@keyframes cloudR {
+	0% {
+		opacity: 0;
+		left: 200px;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		left: -60px;
+	}
+}

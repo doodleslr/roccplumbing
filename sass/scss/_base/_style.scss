@@ -1,0 +1,36 @@
+@import "_modules/_bits";
+
+hr {
+	border-color: $neonblu !important;
+}
+::-webkit-input-placeholder {
+    color:   #9ca6c9;
+}
+:-moz-placeholder {
+   color:    #9ca6c9;
+   opacity:  1;
+}
+::-moz-placeholder {
+   color:    #9ca6c9;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:    #9ca6c9;
+}
+#quote-carousel {
+  text-align: center;
+  height: 265px;
+}
+.hide-me {
+  display: inline;
+  @include XS {
+		display: none;
+	}
+}
+.wrapper {
+  max-width: 1000px;
+    width: 100%;
+    margin: 0px auto; 
+    padding-left: 10px;
+    padding-right: 10px;
+}

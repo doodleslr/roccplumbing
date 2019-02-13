@@ -1,0 +1,19 @@
+@import "_modules/_bits";
+
+.navbar-header {
+  	display: inline-block;
+  	overflow: auto;
+}
+.navbar-toggle {
+  	transform: translateY(40%);
+	margin-right: 5px;
+	@include SM {
+		transform: translateY(50%);
+	}
+}
+.navbar-collapse {
+    height: 190px;
+}
+.menuRight {
+  margin-right: auto;
+}
