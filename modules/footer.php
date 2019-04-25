@@ -13,3 +13,10 @@
 	</div>
 </footer>
 <script src="js/index.js"></script>
+<script>
+    function mobileMenu(button){
+        var id = button.getAttribute("data-target");
+        var menu = document.querySelector(id);
+        menu.classList.toggle('collapse');
+    }
+</script>

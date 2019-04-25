@@ -1,7 +1,7 @@
 <div class="clientBG">
     <div class="wrapper">
         <h2 class="textTitle clientTitle"><span style="color: #ffffff">What our </span><span style="color: #f26522;"><i>clients say</i></span></h2>
-        <div class="carousel slide textFlairL" data-ride="carousel" id="quote-carousel">
+        <div class="carousel carousel-fade textFlairL" data-ride="carousel" id="quote-carousel">
           	<div class="carousel-inner">
 
             		<div class="clientText four item active">

@@ -4,7 +4,7 @@
             <a href="tel:0419254565"><span class="menuText">Call Us</span></a>
         </button>
 
-        <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#min-menu-collapsed">
+        <button type="button" class="navbar-toggle navbar-right" onclick="mobileMenu(this)" data-target="#min-menu-collapsed">
             <span class="menuText">Menu</span>
         </button>
       
