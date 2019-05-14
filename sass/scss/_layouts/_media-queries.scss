@@ -127,6 +127,17 @@ body {
 		background-repeat: repeat-y;
 	}
 }
+.wrapper {
+	@include XL {
+		min-height: 200px;
+	}
+	@include LG {
+		min-height: 200px;
+	}
+	@include MD {
+		min-height: 200px;
+	}
+}
 .clientBG {
 	@include XL {
 		background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg);  

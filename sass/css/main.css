@@ -127,6 +127,16 @@
     background-repeat: repeat-y; } }
 
 @media screen and (min-width: 992px) {
+  .wrapper {
+    min-height: 200px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    min-height: 200px; } }
+@media (min-width: 600px) and (max-width: 767px) {
+  .wrapper {
+    min-height: 200px; } }
+
+@media screen and (min-width: 992px) {
   .clientBG {
     background-image: url(http://res.cloudinary.com/dglarocca/image/upload/f_auto,c_scale,w_1400/v1506336744/IMG-20170922-WA0000_k4w6o0.jpg); } }
 @media (min-width: 768px) and (max-width: 991px) {
